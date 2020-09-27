@@ -1,5 +1,6 @@
 p {
   color: #e4e4e4;
+  font-size: 1.5rem;
 }
 
 span {
@@ -29,12 +30,22 @@ span {
   color: white;
 }
 
-.home-heading {
-  font-size: 5rem;
+.heading {
+  font-size: 4rem;
   color: #ff0000;
   margin: 2rem 0;
 }
 
 .button-buffer {
   margin: 2rem 0;
+}
+
+.go-back {
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.exclaim {
+  font-size: 2rem;
+  color: rgb(0, 255, 55);
 }
