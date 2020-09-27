@@ -33,9 +33,10 @@ export default function Result() {
         <h1 className='heading'>Oh (no)!</h1>
         <img src={evilFace} className='App-logo' alt='Random Pokemon attacker' />
         <p className='exclaim'>
-          A wild (rabid) <span>{evilName}</span> has appeared! Yikes. Yeah, you're done for.
+          A wild (rabid) <span>{evilName}</span> has appeared!
         </p>
-        <p>Although... there may be one way to survive...</p>
+        <p>Yikes. Yeah, you're done for...</p>
+        <p>Although, there may be one way to survive...</p>
         <a
           role='button'
           target='_blank'
