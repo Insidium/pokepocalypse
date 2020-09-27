@@ -1,17 +1,21 @@
 p {
   color: #e4e4e4;
-  text-align: center;
-  margin: 2rem;
+}
+
+span {
+  color: #ff0000;
 }
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   border: solid 4px #754444;
+  margin: 2rem;
 }
 
 .App-header {
@@ -25,12 +29,12 @@ p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .home-heading {
   font-size: 5rem;
   color: #ff0000;
+  margin: 2rem 0;
+}
+
+.button-buffer {
   margin: 2rem 0;
 }
