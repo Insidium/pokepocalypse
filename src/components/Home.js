@@ -3,11 +3,6 @@ import { Link } from "react-router-dom";
 import zombichu from "../zombichu.jpg";
 
 export default function Home() {
-  function getRand() {
-    fetch(`https://pokeapi.co/api/v2/pokemon?limit=151`)
-      .then(response => response.json())
-      .then(allpokemon => console.log(allpokemon));
-  }
   return (
     <div className='container'>
       <h1 className='heading'>POKÉPOCALYPSE</h1>
